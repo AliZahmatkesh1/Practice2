@@ -12,8 +12,8 @@ while aa == "true" :
 
     if bb == "c" or bb == "calculator" or bb == "cal" :
         while aa == "true":
-            a = int(input("Enter a number 1 : ").strip().lower())
-            b = int(input("Enter a number 2 : ").strip().lower())
+            a = int(input("Enter a number 1 : ").strip())
+            b = int(input("Enter a number 2 : ").strip())
             print("\nEnter (+,-,*,/,radical = rad,sin,cos,tan,cot,factorial = fac).")
             print ("Baraye bastan (Exit) , baraye raftan be meno (Meno) type konid.") 
             op = input("Baraye khoroji hame az (all) estefade konid. \n_: ").strip().lower()
