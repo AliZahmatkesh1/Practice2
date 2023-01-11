@@ -1,6 +1,6 @@
 import math
-a = int(input("Enter a number 1 : ").strip().lower())
-b = int(input("Enter a number 2 : ").strip().lower()) 
+a = int(input("Enter a number 1 : ").strip())
+b = int(input("Enter a number 2 : ").strip()) 
 op = input("\nEnter (+,-,*,/,radical = rad,sin,cos,tan,cot,factorial = fac , all).\n-- ").strip().lower()
 a1 = str(a)
 b1 = str(b)
